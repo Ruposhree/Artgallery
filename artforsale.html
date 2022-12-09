@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html>
+
+
+        <head> 
+		<title>  Brian Slovak’s Art Gallery | Art For Sale </title>
+
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		</head>
+		
+		<body>
+			  <div>	
+				<h1 align="center"> Welcome to Brian Slovak’s Art Gallery!</h1>
+				<h2 align="center">Current Art For Sale</h2>
+				</div>
+
+				<div style="">
+				<hr>
+			  <table width = "70%" align = "center">
+			    <td align = "center"> <a href = "index.html"> Home </a> </td>      
+               <td align = "center"><a href = "pastart.html"> Past Art Work </a> </td>
+               <td align = "center"><a href = "artforsale.html"> Art For Sale </a> </td>
+               <td align = "center"><a href = "location.html"> Locations </a> </td>
+              <td align = "center"><a href = "about.html"> About </a> </td>
+              </table> 
+				<hr> 
+				</div> <br> <br> <br>
+				   <center> 
+					<table width = "80%" align = "center" border=0>
+						<tbody>
+							<tr bgcolor="blue" style="color:white;font-size: 20px;">
+								<th height="80px" colspan="2">Work</th> <th>Year</th><th>Size</th><th>Price</th><th bgcolor="white" rowspan="5">
+									<h3 style="color:black">If interested in any pieces,<br><small>See our “Locations” page.</small> <br>
+										<small><br><a href="location.html">Locations</a></small>
+								</h3></th>
+							</tr>
+							<tr align="center" bgcolor="white">
+								<td><img src="Art For Sale Assets/images/05030.jpg"></td> <td>The Death of Marat <br>Jacques-Louis David</td>
+								<td>1793</td><td>Width:162cm <br> Height:128cm</td><td>$1000</td>
+							</tr>
+							<tr align="center" bgcolor="white">
+								<td><img src="Art For Sale Assets/images/06020.jpg"></td> <td>Burials at Ornans <br>Gastave Courbet</td>
+								<td>1849</td><td>Width:314cm <br> Height:663cm</td><td>$1500</td>
+							</tr>
+							<tr align="center" bgcolor="white">
+								<td><img src="Art For Sale Assets/images/10020.jpg"></td> <td>Betty de Rothchild <br>Jean-Augeste Ingres</td>
+								<td>1848</td><td>Width:142cm <br> Height:101cm</td><td>$2500</td>
+							</tr>
+							<tr align="center" bgcolor="white">
+								<td><img src="Art For Sale Assets/images/13030.jpg"></td> <td>Arrangement in Grey and Black <br>James Abbott Whistler</td>
+								<td>1871</td><td>Width:144cm <br> Height:162cm</td><td>$2000</td>
+							</tr>
+						</tbody>
+					  </table>  
+					</center>	<br><br>
+					
+					<center><button onclick="topFunction()" style="background-color: red; width:140px;height:50px;color:white" id="myBtn" title="Go to top">Return to Top</button></center>
+		
+				
+					<!-- Reference W3Schools -->
+					<script>
+						//Get the button
+						var mybutton = document.getElementById("myBtn");
+						
+						// When the user scrolls down 20px from the top of the document, show the button
+						window.onscroll = function() {scrollFunction()};
+						
+						function scrollFunction() {
+						  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+							mybutton.style.display = "block";
+						  } else {
+							mybutton.style.display = "none";
+						  }
+						}
+						
+						// When the user clicks on the button, scroll to the top of the document
+						function topFunction() {
+						  document.body.scrollTop = 0;
+						  document.documentElement.scrollTop = 0;
+						}
+						</script>
+		</body>
+
+	</html>

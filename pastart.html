@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html>
+
+
+        <head> 
+		<title>  Brian Slovak’s Art Gallery | Past Arts </title>
+
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		</head>
+		
+		<body>
+			  <div>	
+				<h1 align="center"> Welcome to Brian Slovak’s Art Gallery!</h1>
+				<h2 align="center">Pieces of art we have sold in the past</h2>
+				</div>
+
+				<div style="">
+				<hr>
+			  <table width = "70%" align = "center">
+			    <td align = "center"> <a href = "index.html"> Home </a> </td>      
+               <td align = "center"><a href = "pastart.html"> Past Art Work </a> </td>
+               <td align = "center"><a href = "artforsale.html"> Art For Sale </a> </td>
+               <td align = "center"><a href = "location.html"> Locations </a> </td>
+              <td align = "center"><a href = "about.html"> About </a> </td>
+              </table> 
+				<hr> 
+				</div> <br> <br> <br>
+				   <center> 
+					   <table width = "70%" align = "center" border=1>
+						<tbody>
+							<tr bgcolor="blue" style="color:white;font-size: 20px;">
+								<th height="80px" colspan="2">Product</th> <th>List Price</th><th>Sold Price</th>
+							</tr>
+							<tr align="center" bgcolor="white">
+								<td><img src="Past Artwork Assets/images/106020.jpg"></td> <td>Girl With Pearl Earning</td>
+								<td>$240.00</td><td>$200.00</td>
+							</tr>
+							<tr align="center" bgcolor="white">
+								<td><img src="Past Artwork Assets/images/120010.jpg"></td> <td>Artist Holding a Thistle</td>
+								<td>$240.00</td><td>$200.00</td>
+							</tr>
+							<tr align="center" bgcolor="white">
+								<td><img src="Past Artwork Assets/images/116010.jpg"></td> <td>Portrait of Eleanor of Toledo</td>
+								<td>$240.00</td><td>$200.00</td>
+							</tr>
+							<tr align="center" bgcolor="white">
+								<td></td><td align="right">Total &nbsp;&nbsp;</td>
+								<td>$800.00</td><td>$700.00</td>
+							</tr>
+						</tbody>
+					  </table>
+					</center>	
+					<br> <br>		
+					
+					<center><button onclick="topFunction()" style="background-color: red; width:140px;height:50px;color:white" id="myBtn" title="Go to top">Return to Top</button></center>
+		
+				
+					<!-- Reference W3Schools -->
+					<script>
+						//Get the button
+						var mybutton = document.getElementById("myBtn");
+						
+						// When the user scrolls down 20px from the top of the document, show the button
+						window.onscroll = function() {scrollFunction()};
+						
+						function scrollFunction() {
+						  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+							mybutton.style.display = "block";
+						  } else {
+							mybutton.style.display = "none";
+						  }
+						}
+						
+						// When the user clicks on the button, scroll to the top of the document
+						function topFunction() {
+						  document.body.scrollTop = 0;
+						  document.documentElement.scrollTop = 0;
+						}
+						</script>
+				</body>
+
+	</html>
